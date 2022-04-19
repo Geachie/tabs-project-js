@@ -7,7 +7,7 @@ about.addEventListener('click', (e) => {
   if(id){
     // remove active
     btns.forEach((btn)=>{
-      btns.classList.remove('active');
+      btn.classList.remove('active');
       // add active to clicked btn
       e.target.classList.add('active');
     });     
